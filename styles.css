@@ -37,6 +37,24 @@ main {
     height: 76vh;
     background-color: darkgoldenrod;
 }
+form {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: space-around;
+    justify-content: space-around;
+    width: 54%;
+    height: 80%;
+}
+input {
+    height: 8%;
+    border-radius: 12px;
+}
+input[placeholder="   Votre message"] {
+    height: 22%;
+}
+input[type="checkbox"] {
+    display: none;
+}
 footer {
     display: flex;
     flex-flow: row wrap;
